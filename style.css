@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    border: 1px solid black;
+    padding-left: 30px;
+    padding-right: 30px;
+    max-width: 80vw;
+    margin: 0 auto;
+}
