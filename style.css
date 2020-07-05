@@ -33,9 +33,50 @@ header p{
 }
 
 
-/* DESSCRIPTION */
+/* DESCRIPTION */
 #description{
     height: 90vh;
+}
+#description .container{
+    position: relative;
+    height: 90vh; 
+    background: linear-gradient(to bottom, rgba(247,247,247,1) 64%, rgba(237,236,249,1) 70%, rgba(223,222,247,1) 77%, rgba(208,211,246,1) 91%, rgba(206,210,246,1) 93%, rgba(201,206,245,1) 98%, rgba(199,205,245,1) 100%);
+}
+#description .container img{
+    position: absolute;
+    height: 60vh;
+    width: 40vw;
+    top: 15vh;
+    left: -5vh;
+    display: inline-block;
+}
+.article{
+    position: relative;
+    display: inline-block;
+    width: 35vw;
+    top: 20vh;
+    left: 30vw;
+    font-size: 25px;
+    text-align: center;
+}
+.prev, .next{
+    width: 5vw;
+    height: 80vh;
+    display: inline-block;
+    font-size: 70px;
+    font-weight: 900;
+    color: aqua;
+    line-height: 80vh; // 'set marks
+    position: absolute;text-align: center;
+}
+.prev{
+    float: left;
+}
+.next{
+    float: right;
+}
+.bold{
+    color: aqua;
 }
 
 /* PRODUCTS */
