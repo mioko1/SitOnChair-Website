@@ -120,7 +120,7 @@ header p{
 }
 .line{
     width:200px;
-    height: 10%;
+    height: 5px;
     background-color: forestgreen;
     position: absolute;
 }
@@ -136,6 +136,54 @@ header p{
 /* OFFER */
 #offer{
     height: 70vh;
+}
+#offer .container{
+    height: 70vh;
+}
+#offer .container p{
+    position: relative;
+    top: 2vh;
+}
+.lineLonger{
+    width: 20vw;
+    position: relative;
+    top: 2vh;
+}
+.plan{
+    border: 2px solid gray;
+    height: 50vh;
+    display: inline-block;
+    position: relative;
+    top: 10vh;
+    width: 20vw;
+}
+.offer1{
+    float: left
+}
+.offer2{
+    left: 12%;
+}
+.offer3{
+    float: right;
+}
+.circle1{
+    width: 50px;
+    height: 50px;
+    border: 1px solid gray;
+    border-radius: 50%;
+    position: absolute;
+    top: -30px;
+    left: 17vh;
+    background-color: white;
+}
+.circle2{
+    width: 25px;
+    height: 25px;
+    background-color: gray;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    left: 12px;
 }
 
 /* FORM */
