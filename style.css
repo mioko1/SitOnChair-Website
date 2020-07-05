@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 .container{
     border: 1px solid black;
@@ -39,12 +40,61 @@ header p{
 
 /* PRODUCTS */
 #products{
-    height: 100vh;
+    height: 30vh;
 }
+#products .container{
+    font-size: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.chair1, .chair2, .chair3{
+    width: 25vw;
+    height: 30vh;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: relative;
+}
+.chair3{
+    border: 2px solid gray;
+    font-size: 12px;
+    height: 30vh;
+}
+.chair3 span{
+    padding-top: 20px;
+    font-weight: 900;
+}
+.shadow{
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    opacity: 60%;
+    bottom: 20px;
+    padding-left: 40px;
+    line-height: 25px;
+}
+.nameOfChair{
+    font-weight: 900;
+    font-size: 20px;
+}
+.line{
+    width:200px;
+    height: 10%;
+    background-color: forestgreen;
+    position: absolute;
+}
+.lineTop{
+    width:200px;
+    height: 5%;
+    background-color: forestgreen;
+    position: absolute;
+    top: 30px;
+}
+
 
 /* OFFER */
 #offer{
-    height: 100vh;
+    height: 70vh;
 }
 
 /* FORM */
