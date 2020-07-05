@@ -9,3 +9,34 @@
     max-width: 80vw;
     margin: 0 auto;
 }
+
+/* HEADER */
+header{
+    height: 10vh;
+    background-color: black;
+}
+
+/* DESSCRIPTION */
+#description{
+    height: 90vh;
+}
+
+/* PRODUCTS */
+#products{
+    height: 100vh;
+}
+
+/* OFFER */
+#offer{
+    height: 100vh;
+}
+
+/* FORM */
+#form{
+    height: 90vh;
+}
+
+/* FOOTER */
+footer{
+    height: 10vh;
+}
