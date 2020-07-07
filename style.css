@@ -134,56 +134,161 @@ header p{
 
 
 /* OFFER */
-#offer{
-    height: 70vh;
-}
 #offer .container{
     height: 70vh;
+    background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 9%, rgba(237,237,237,1) 89%, rgba(237,237,237,1) 100%);
+    color: darkgrey;
+    display: flex;
+    justify-content: space-around;
 }
-#offer .container p{
+.priceList{
     position: relative;
     top: 2vh;
+    left: 10vw;
 }
 .lineLonger{
     width: 20vw;
     position: relative;
     top: 2vh;
+    left: 10vw;
 }
+
+/* OFFER- ELEMENTS OF CONTAINER */
 .plan{
     border: 2px solid gray;
-    height: 50vh;
+    height: 55vh;
     display: inline-block;
     position: relative;
-    top: 10vh;
-    width: 20vw;
-}
-.offer1{
-    float: left
+    top: 9vh;
+    width: 18vw;
 }
 .offer2{
-    left: 12%;
+    background-color: #27c7ab;
+    border: #27c7ab;
 }
-.offer3{
-    float: right;
+
+/* OFFER 1 i 3 -first method to create label*/
+.offer1::before,
+.offer3::before{
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border: 1px solid;
+    border-radius: 50%;
+    top: -6%;
+    left: 40%;
+    z-index: 1;
 }
+.offer1::after,
+.offer3::after{
+    content: "";
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-color: lightgray;
+    border-radius: 50%;
+    top: -4%;
+    left: 43.5%;
+    z-index: 2;
+}
+
+/* OFFER 2 -another method to create label*/
 .circle1{
-    width: 50px;
-    height: 50px;
-    border: 1px solid gray;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #27c7ab;
     border-radius: 50%;
     position: absolute;
-    top: -30px;
-    left: 17vh;
-    background-color: white;
+    top: -5%;
+    left: 44%;
+    background-color: #27c7ab;
 }
 .circle2{
     width: 25px;
     height: 25px;
-    background-color: gray;
+    background-color: white;
     border-radius: 50%;
     position: absolute;
-    top: 10px;
-    left: 12px;
+    top: 15%;
+    left: 18%;
+}
+
+/* OFFER- OTHER ELEMENTS */
+.offerTitle{
+    color: #27c7ab;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.offer2 .offerTitle{
+    color: white;
+}
+.prices{
+    width: 100px;
+    height: 100px;
+    border: 2px solid darkgray;
+    border-radius: 50%;
+    color: #585858;
+    font-size: 20px;
+    font-weight: 700;
+    position: relative;
+    margin: 0 auto;
+    top: 30px;
+}
+.offer2 .prices{
+    background-color: white;
+    border: #27c7ab;
+    color: #27c7ab;
+}
+.price{
+    position: relative;
+    text-align: center;
+    top:20px;
+}
+.priceUp{
+    position: relative;
+    top:-7px;
+    padding: 0; 
+}
+.offerList{
+    list-style-type: none;
+    position: absolute;
+    top: 200px;
+    width: 100%;
+    color: #585858
+}
+.shadow1{
+    background-color: grey;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+}
+.shadow2{
+    background-color: lightgray;
+}
+.shadow3{
+    background-color: white;
+}
+button{
+    position: absolute;
+    bottom: 10px;
+    left: 30%;
+    color: white;
+    background-color: #27c7ab;
+    padding: 8px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 12px;
+    font-weight: 700;
+    border: 2px solid;
+    border-radius: 20%;
+    cursor: pointer;
+}
+.offer2 button{
+    background-color: white;
+    color:#27c7ab;
 }
 
 /* FORM */
