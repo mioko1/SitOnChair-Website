@@ -281,7 +281,6 @@ header p{
     background-color: white;
 }
 button{
-    position: absolute;
     bottom: 10px;
     left: 30%;
     color: white;
@@ -292,8 +291,11 @@ button{
     font-size: 12px;
     font-weight: 700;
     border: 2px solid;
-    border-radius: 20%;
+    border-radius: 0.5em 0.5em 0.5em 0.5em;
     cursor: pointer;
+}
+.offerButton{
+    position: absolute;
 }
 .offer2 button{
     background-color: white;
@@ -303,6 +305,43 @@ button{
 /* ----------------------------------- FORM ----------------------------------- */
 #form{
     height: 90vh;
+}
+#form .container{
+    
+}
+form, .cotanct{
+    display: inline-block;
+}
+form{
+    border: 1px solid red;
+}
+input{
+    display: block;
+    margin: 50px;
+    padding: 20px;
+}
+.contact{
+    position: relative;
+    float: right;
+    margin-right: 50px;
+    width: 20vw;
+}
+.send img, .send p{
+    display: inline-block;
+    margin-top: 30px;
+}
+.send img{
+    border: 1px solid #27c7ab;
+}
+.send p{
+    margin-left: 15px;
+    color: gray;
+}
+.sendButton{
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 25px
 }
 
 /* ----------------------------------- FOOTER ----------------------------------- */
