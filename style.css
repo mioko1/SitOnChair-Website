@@ -11,7 +11,7 @@
     margin: 0 auto;
 }
 
-/* HEADER */
+/* ----------------------------------- HEADER ----------------------------------- */
 header{
     height: 10vh;
     background-color: black;
@@ -33,7 +33,7 @@ header p{
 }
 
 
-/* DESCRIPTION */
+/* ----------------------------------- DESCRIPTION ----------------------------------- */
 #description{
     height: 90vh;
 }
@@ -133,7 +133,7 @@ header p{
 }
 
 
-/* OFFER */
+/* ----------------------------------- OFFER ----------------------------------- */
 #offer .container{
     height: 70vh;
     background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 9%, rgba(237,237,237,1) 89%, rgba(237,237,237,1) 100%);
@@ -291,12 +291,12 @@ button{
     color:#27c7ab;
 }
 
-/* FORM */
+/* ----------------------------------- FORM ----------------------------------- */
 #form{
     height: 90vh;
 }
 
-/* FOOTER */
+/* ----------------------------------- FOOTER ----------------------------------- */
 footer{
     height: 10vh;
     line-height: 10vh;
