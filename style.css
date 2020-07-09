@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 .container{
-    border: 1px solid black;
+    //border: 1px solid black;
     padding-left: 30px;
     padding-right: 30px;
     max-width: 80vw;
@@ -65,7 +65,7 @@ header p{
     display: inline-block;
     font-size: 70px;
     font-weight: 900;
-    color: aqua;
+    color: #27c7ab;
     line-height: 80vh; // 'set marks
     position: absolute;text-align: center;
 }
@@ -76,7 +76,7 @@ header p{
     float: right;
 }
 .bold{
-    color: aqua;
+    color: #27c7ab;
 }
 
 /* PRODUCTS */
@@ -89,16 +89,20 @@ header p{
     justify-content: space-between;
 }
 .chair1, .chair2, .chair3{
-    width: 25vw;
-    height: 30vh;
+    width: 24vw;
+    height: 25vh;
     padding-left: 20px;
     padding-right: 20px;
     position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .chair3{
     border: 2px solid gray;
     font-size: 12px;
-    height: 30vh;
+    height: 28vh;
+    position: relative;
+    top: 20px;
 }
 .chair3 span{
     padding-top: 20px;
@@ -121,7 +125,8 @@ header p{
 .line{
     width:200px;
     height: 5px;
-    background-color: forestgreen;
+    background-color: #27c7ab;
+    background-color: #27c7ab;
     position: absolute;
 }
 .lineTop{
@@ -152,13 +157,13 @@ header p{
 }
 .priceList{
     position: relative;
-    top: 2vh;
+    top: 4vh;
     left: 10vw;
 }
 .lineLonger{
     width: 20vw;
     position: relative;
-    top: 2vh;
+    top: 4vh;
     left: 10vw;
 }
 
@@ -168,7 +173,7 @@ header p{
     height: 55vh;
     display: inline-block;
     position: relative;
-    top: 9vh;
+    top: 13vh;
     width: 18vw;
 }
 .offer2{
@@ -290,7 +295,7 @@ button{
     padding-right: 25px;
     font-size: 12px;
     font-weight: 700;
-    border: 2px solid;
+    border: 2px solid #27c7ab;
     border-radius: 0.5em 0.5em 0.5em 0.5em;
     cursor: pointer;
 }
@@ -303,8 +308,11 @@ button{
 }
 
 /* ----------------------------------- FORM ----------------------------------- */
+#form{
+   //height: 90vh;
+}
 #form .container{
-    height: 90vh;
+    height: 80vh;
     position: relative;
 }
 
@@ -319,11 +327,9 @@ form, .contact{
     top: 10%;
 }
 form{
-    border: 1px solid red;
     width: 60%;
     position: relative;
     margin-left: 5%;
-    
 }
 input, textarea{
     display: block;
